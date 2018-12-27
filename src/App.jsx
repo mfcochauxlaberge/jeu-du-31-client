@@ -9,6 +9,24 @@ class App extends React.Component {
   render() {
     return (
       <div id={AppStyles['app']}>
+        <div id={AppStyles['header']}>
+          <nav>
+            <ul>
+              <li>
+                <Link to="/play">Jouer</Link>
+              </li>
+              <li>
+                <Link to="/image">Image</Link>
+              </li>
+              <li>
+                <Link to="/rank">Classement</Link>
+              </li>
+              <li>
+                <Link to="#">Quitter</Link>
+              </li>
+            </ul>
+          </nav>
+        </div>
         <div id={AppStyles['content']}>
           {/* <Route path="/start" exact component={Start} /> */}
           <Route path="/play" exact component={Play} />
