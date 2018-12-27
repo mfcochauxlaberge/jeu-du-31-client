@@ -7,16 +7,7 @@ class Rank extends React.Component {
     super(props)
 
     this.state = {
-      players: [
-        {
-          name: 'hey',
-          score: 2,
-        },
-        {
-          name: 'hey2',
-          score: 23,
-        },
-      ],
+      players: [],
     }
   }
 
