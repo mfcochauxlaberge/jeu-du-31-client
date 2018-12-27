@@ -5,6 +5,7 @@ import AppStyles from './styles/pages/App.scss'
 
 import Play from './pages/Play.jsx'
 import Image from './pages/Image.jsx'
+import Rank from './pages/Rank.jsx'
 
 class App extends React.Component {
   render() {
@@ -32,6 +33,7 @@ class App extends React.Component {
           {/* <Route path="/start" exact component={Start} /> */}
           <Route path="/play" exact component={Play} />
           <Route path="/image" exact component={Image} />
+          <Route path="/rank" exact component={Rank} />
           {/* <Route path="/admin" exact component={Vote} /> */}
         </div>
         <footer id={AppStyles['footer']}>

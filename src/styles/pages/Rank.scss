@@ -1,0 +1,13 @@
+#rank {
+  font-size: 20px;
+
+  tr {
+    td:first-child {
+      font-weight: bold;
+    }
+
+    td:nth-child(3) {
+      text-align: right;
+    }
+  }
+}
