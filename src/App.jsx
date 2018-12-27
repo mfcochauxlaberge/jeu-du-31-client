@@ -4,6 +4,7 @@ import { Link, Route } from 'react-router-dom'
 import AppStyles from './styles/pages/App.scss'
 
 import Play from './pages/Play.jsx'
+import Image from './pages/Image.jsx'
 
 class App extends React.Component {
   render() {
@@ -30,7 +31,7 @@ class App extends React.Component {
         <div id={AppStyles['content']}>
           {/* <Route path="/start" exact component={Start} /> */}
           <Route path="/play" exact component={Play} />
-          {/* <Route path="/display" exact component={Play} /> */}
+          <Route path="/image" exact component={Image} />
           {/* <Route path="/admin" exact component={Vote} /> */}
         </div>
         <footer id={AppStyles['footer']}>
