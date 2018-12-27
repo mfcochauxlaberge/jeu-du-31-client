@@ -14,4 +14,4 @@ ReactDOM.render(
   document.getElementById('app'),
 )
 
-hot.module.accept()
+// hot.module.accept()
