@@ -2,9 +2,7 @@ import React from 'react'
 
 import PlayStyles from '../styles/pages/Play.scss'
 
-import Calendar from '../components/Calendar.jsx'
-
-class Play extends React.Component {
+class Image extends React.Component {
   constructor(props) {
     super(props)
 
@@ -33,4 +31,4 @@ class Play extends React.Component {
   }
 }
 
-export default Play
+export default Image
